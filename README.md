@@ -1,24 +1,49 @@
 # 🎬 Movie Recommender System
 
-A content-based movie recommendation engine that suggests similar movies based on user selection. Built with Python and Machine Learning, and deployed using Streamlit.
+A content-based movie recommendation system built using Python, Machine Learning and Streamlit.
 
-### 🔗 Live Demo
-[Click here to try the app!](https://movie-recommender-system-hrgv3svzlnrkujhsnrjjyl.streamlit.app/)
+The system recommends movies similar to the selected movie using cosine similarity.
 
 ---
 
-### 🚀 Features
-* **Interactive Selection:** Choose a movie from a dropdown list of 5,000+ titles.
-* **Smart Filtering:** Uses Vectorization and Cosine Similarity to find the best matches.
-* **Poster Integration:** (Optional) Fetches real-time posters using the TMDB API.
+## Live Demo
+https://movie-recommender-system-hrgv3svzlnrkujhsnrjjyl.streamlit.app/
 
-### 🛠️ Tech Stack
-* **Language:** Python 3.x
-* **Frontend:** Streamlit
-* **ML Libraries:** Pandas, Scikit-Learn, NumPy
-* **Deployment:** Streamlit Community Cloud
+---
 
-### 📦 Local Installation
-1. Clone the repo:
-   ```bash
-   git clone [https://github.com/Nipun0101/movie-recommender-system.git](https://github.com/Nipun0101/movie-recommender-system.git)
+## Features
+• Content-based movie recommendation  
+• Movie posters fetched using TMDB API  
+• Interactive Streamlit interface  
+• Fast recommendations using precomputed similarity matrix  
+
+---
+
+## Tech Stack
+Python  
+Pandas  
+Scikit-learn  
+Streamlit  
+TMDB API  
+
+---
+
+## Project Structure
+
+app.py – Streamlit web application
+
+movie-recommender-system.ipynb – Model training notebook
+
+movies_dict.pkl – Movie dataset
+
+similarity.pkl – Precomputed similarity matrix
+
+requirements.txt – Python dependencies
+
+---
+
+## Run Locally
+
+pip install -r requirements.txt
+
+streamlit run app.py
