@@ -1,42 +1,24 @@
-# Movie Recommender System
+# 🎬 Movie Recommender System
 
-A content-based movie recommendation system built using Machine Learning and Streamlit.
+A content-based movie recommendation engine that suggests similar movies based on user selection. Built with Python and Machine Learning, and deployed using Streamlit.
 
-## Features
-- Recommend movies based on similarity
-- Built using cosine similarity
-- Interactive web app using Streamlit
+### 🔗 Live Demo
+[Click here to try the app!](https://movie-recommender-system-hrgv3svzlnrkujhsnrjjyl.streamlit.app/)
 
-## Tech Stack
-- Python
-- Pandas
-- Scikit-Learn
-- Streamlit
+---
 
-## Run Locally
+### 🚀 Features
+* **Interactive Selection:** Choose a movie from a dropdown list of 5,000+ titles.
+* **Smart Filtering:** Uses Vectorization and Cosine Similarity to find the best matches.
+* **Poster Integration:** (Optional) Fetches real-time posters using the TMDB API.
 
-Clone the repository
+### 🛠️ Tech Stack
+* **Language:** Python 3.x
+* **Frontend:** Streamlit
+* **ML Libraries:** Pandas, Scikit-Learn, NumPy
+* **Deployment:** Streamlit Community Cloud
 
-git clone https://github.com/Nipun0101/movie-recommender-system
-
-Install dependencies
-
-pip install -r requirements.txt
-
-Run the app
-
-streamlit run app.py
-
-## Model Files
-
-The file `similarity.pkl` is not included in the repository because it exceeds GitHub's 100MB file size limit.
-
-To generate it, run the notebook:
-
-movie-recommender-system.ipynb
-
-This will create:
-
-similarity.pkl
-
-The application loads this file to compute movie recommendations.
+### 📦 Local Installation
+1. Clone the repo:
+   ```bash
+   git clone [https://github.com/Nipun0101/movie-recommender-system.git](https://github.com/Nipun0101/movie-recommender-system.git)
